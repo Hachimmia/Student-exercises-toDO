@@ -1,0 +1,4 @@
+[
+  {"title": "Intro to Programming", "credits": 10, "instructor": "Dr. Turing", "semester": "Autumn"},
+  {"title": "Advanced Web Dev", "credits": 15, "instructor": "Prof. Berners-Lee", "semester": "Spring"}
+]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portal</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  <div id="login-page">
+    <h2>Login</h2>
+    <form id="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+      <br />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <div id="dashboard" style="display: none">
+    <header>
+      <h1>Student Portal</h1>
+      <nav>
+        <button onclick="loadPage('students')">Student List</button>
+        <button onclick="loadPage('courses')">Courses</button>
+        <button onclick="logout()">Logout</button>
+      </nav>
+    </header>
+
+    <main>
+      <div id="contents"></div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
